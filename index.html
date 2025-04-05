@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Rock_Paper_Scissors</title>
+    </head>
+
+    <body>
+        <h1>Rock_Paper_Scissors</h1>
+        <div class="container">
+          
+          <div class="introduction">
+            <div id="rpc">Choose Rock, Paper or Scissors</div>
+            <div class="counts">
+              <div id="count-user">User: <span>0</span></div>
+              <div id="count-robot">Robot: <span>0</span></div>
+            </div>
+          </div>
+
+          <div class="images-container">
+            <img class="images" id="rock" src="360_F_293712283_EGPqlm1bxpH0ZnrngyjRBol9GnJm2ST7.jpg" 
+            alt="Rock">
+            <img class="images" id="paper" src="images.png" 
+            alt="Paper">
+            <img class="images" id="scissors" src="51qalNnwIGL._AC_UF1000,1000_QL80_.jpg"
+            alt="Scissors"> 
+          </div>
+          
+          <div class="results">
+            <div id="result-user"></div>
+            <div id="result-robot"></div>
+            <div id="final-result"></div>
+          </div>
+
+          <div class="play-again">
+            <div id="who-wins"></div>
+            <input type="button" id="reset-button" value="Reset the game"><label for="reset-button"></label>
+          </div>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
